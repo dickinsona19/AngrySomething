@@ -49,3 +49,16 @@ func _process(delta):
 		$powermeter/powermeter3.show()
 		$powermeter/powermeter4.show()
 		$powermeter/powermeter5.show()
+
+
+func _on_Enemy_body_entered(body):
+	print("HIT!")
+
+
+func _on_Area2D_area_entered(area):
+	print("HIT!")
+
+
+func _on_RigidBody2D_body_entered(body):
+	if body == $Player:
+		print("HIT!")

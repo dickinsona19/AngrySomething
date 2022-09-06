@@ -6,6 +6,9 @@ var power =.9
 var powerTop= false
 var powerBottom = true
 
+var hasLaunched = false
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -41,7 +44,8 @@ func _process(delta):
 	$ArrowRotater.rotation_degrees =  rotationAngle
 	
 	
-	if Input.is_action_just_pressed("launch"):
+	if Input.is_action_just_pressed("launch") and hasLaunched == false:
 		apply_impulse(Vector2(0,0), Vector2(100* power,-100 *power).rotated(deg2rad(rotationAngle)))
 		$ArrowRotater.hide()
 		emit_signal("wasLaunched")
+		hasLaunched = true

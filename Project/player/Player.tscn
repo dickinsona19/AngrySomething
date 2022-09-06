@@ -5,7 +5,7 @@
 [ext_resource path="res://Project/player/elementStone054.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 36.1248
+radius = 37.1214
 
 [node name="Player" type="RigidBody2D"]
 script = ExtResource( 2 )
