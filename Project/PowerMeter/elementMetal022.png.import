@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/elementStone054.png-a2baeef20b0c32e5ded6ea4989ddf888.stex"
+path="res://.import/elementMetal022.png-0e3e31440076439a2a59d25ce7a294f7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Project/elementStone054.png"
-dest_files=[ "res://.import/elementStone054.png-a2baeef20b0c32e5ded6ea4989ddf888.stex" ]
+source_file="res://Project/PowerMeter/elementMetal022.png"
+dest_files=[ "res://.import/elementMetal022.png-0e3e31440076439a2a59d25ce7a294f7.stex" ]
 
 [params]
 

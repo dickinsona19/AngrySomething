@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/elementWood019.png-1f9f6d82f96d3eaa61d9caebd3b00fd3.stex"
+path="res://.import/elementStone054.png-93063cfc5d622bae36608b0cb7e9bf44.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Project/elementWood019.png"
-dest_files=[ "res://.import/elementWood019.png-1f9f6d82f96d3eaa61d9caebd3b00fd3.stex" ]
+source_file="res://Project/player/elementStone054.png"
+dest_files=[ "res://.import/elementStone054.png-93063cfc5d622bae36608b0cb7e9bf44.stex" ]
 
 [params]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Project/alienGreen_round.png" type="Texture" id=1]
-[ext_resource path="res://Project/Player.gd" type="Script" id=2]
-[ext_resource path="res://Project/elementStone054.png" type="Texture" id=3]
+[ext_resource path="res://Project/player/alienGreen_round.png" type="Texture" id=1]
+[ext_resource path="res://Project/player/Player.gd" type="Script" id=2]
+[ext_resource path="res://Project/player/elementStone054.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 36.1248
